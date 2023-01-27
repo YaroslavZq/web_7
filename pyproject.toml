@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-7"
+version = "0.1.0"
+description = ""
+authors = ["Yaroslav <svyatikua@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_7"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^1.4.46"
+alembic = "^1.9.2"
+psycopg2-binary = "^2.9.5"
+faker = "^16.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
